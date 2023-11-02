@@ -2,14 +2,34 @@
 title: "Assignment 1"
 ---
 
-# Assignment 1
+## (a) Summarize
 
-```{r}
-1 + 1
-```
+[The Future of missing data - Nicholas Tierney](https://www.rstudio.com/conference/2022/talks/future-of-missing-data/)
 
-My first assignment has two parts.
+During data analysis, encountering missing data is quite common. These missing values can adversely affect the data analysis workflow because you may need to make decisions on how to handle these gaps. Should you fill in missing values, or should you ignore them? Each option has its own consequences, and these decisions impact the data analysis. Often, the data you come across doesn't always come with a research question. Therefore, understanding the reason for the missing values is crucial.
 
-## (a)
+To overcome this challenge, two R packages, namely **`{naniar}`** and **`{visdat}`**, have been developed.
 
-## (b)
+"Naniar" and "visdat" are two different R packages used for examining and visualizing missing data. These packages are used to understand the impact of missing data on data analysis processes and to evaluate how to deal with these gaps.
+
+**naniar:**
+
+-   "naniar" is an R package used to better understand and handle missing data.
+
+-   This package provides a set of tools and visualization methods for missing data analysis.
+
+-   "naniar" offers functions to examine how missing values are distributed in a dataset, the relationships between missing values, their impact on statistical model results, and how to impute missing data.
+
+-   This package allows you to easily visualize missing data and create graphs to understand the reasons for missing values.
+
+**visdat:**
+
+-   "visdat" is an R package used to visually inspect how missing data appears in a dataset.
+
+-   This package helps to see missing data more clearly and is useful for understanding the impact of missing data on data analysis processes.
+
+-   "visdat" enables you to create graphs that display the distribution of missing data in the dataset, the relationships between missing values across different variables, and how missing data changes over time.
+
+-   This package facilitates the visual analysis of missing data and understanding its potential effects on data analysis results.
+
+## 
